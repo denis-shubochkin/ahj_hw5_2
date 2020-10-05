@@ -3,7 +3,7 @@ import { fork } from 'child_process';
 
 jest.setTimeout(30000);
 
-describe('Popover form', () => {
+describe('Goods list', () => {
   let browser = null;
   let page = null;
   let server = null;
@@ -20,7 +20,7 @@ describe('Popover form', () => {
     });
 
     browser = await puppeteer.launch({
-      headless: false,
+      headless: true,
       slowMo: 100,
     });
     page = await browser.newPage();
