@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="goods-form">
+    <div class="header">
+      <span class="goods">Товары</span>
+      <button class="add-button button"></button>
+    </div>
+    <div class="goods-list-form">
+    <div class="names-list list">
+      <div class="list-element name">Название</div>
+    </div>
+    <div class="prices-list list">
+      <div class="list-element price">Стоимость</div>
+    </div>
+    <div class="actions-list list">
+      <div class="list-element action">Действия</div>
+    </div>
+    </div>
+    <div class="edit-form">
+      <div class="edit-name-form edit-input-block">
+      <label class="edit-name-label">Название</label>
+      <input class="edit-name-input input" type="text">
+      </div>
+      <div class="edit-price-form edit-input-block">
+        <label class="edit-price-label">Стоимость</label>
+        <input class="edit-price-input input" type="number">
+        </div>
+        <div class="edit-buttons">
+          <button class="button-save edit-form-button">Сохранить</button>
+          <button class="button-cancel edit-form-button">Отмена</button>
+        </div>
+        
+    </div>
+    <div class="hidden hidden-price-empty hidden-price">Введите стоимость</div>
+    <div class="hidden hidden-price-zero hidden-price">Стоимость должна быть больше нуля</div>
+    <div class="hidden hidden-name">Введите название</div>
+</div>
+</body>
+<script src="js/app.js"></script>
+</html>
